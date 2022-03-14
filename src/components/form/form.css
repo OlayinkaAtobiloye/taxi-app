@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+label{
+    display: block;
+}
+
+.form{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: white;
+}
+
+.section{
+    margin-bottom: 36px;
+    width: 100%;
+}
+
+label{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 54px;
+letter-spacing: 0em;
+margin-bottom: 8px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+input, select, textarea {
+    width: 100%;
+    background-color: var(--grey);
+}
+
+textarea{
+    height: 64px;
+    border-radius: 6px;
+    padding: 6px;
+    outline: none;
+}
+
+input{
+    height: 48px;
+    padding: 6px;
+    outline: none;
+}
+
+.section > input {
+    width: -webkit-fill-available;
+}
+
+a {
+    background-color: var(--green);
+    color: white;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    height: 48px;
+}
+
+
+select{
+    width: -webkit-fill-available;
+    height: 48px;
+    outline: none;
+}
+
+.flex > div {
+    width: 45%;
+}
+
+.flex input, .flex select {
+    width: 100%;
+}
+
+textarea, select, input {
+    border-color: var(--grey);
+    border-style: none;
+}
+
+button{
+width: 160px;
+height: 50px;
+border-radius: 8px;
+background-color: var(--green);
+color: white;
+border-style: none;
+margin: 0 auto;
+}
